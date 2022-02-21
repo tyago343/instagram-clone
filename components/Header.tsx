@@ -11,7 +11,7 @@ import {
 import { HomeIcon } from '@heroicons/react/solid'
 import logoDesktop from '../images/instagram-logo-desktop.png'
 import logoMobile from '../images/instagram-logo-mobile.png'
-import profilePicture from '../images/profile-picture.jpg'
+import profilePicture from '../images/profile-picture.png'
 function Header() {
   return (
     <div className='shadow-sm border-b bg-white sticky top-0'>
@@ -52,7 +52,7 @@ function Header() {
           <UserGroupIcon className="navBtn" />
           <HeartIcon className="navBtn" />
           <img
-            src={'https://links.papareact.com/3ke'}
+            src={profilePicture.src}
             alt="profile pic"
             className="h-10 cursor-pointer rounded-full"
           />
